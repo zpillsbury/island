@@ -53,9 +53,14 @@
 
     <input id="banana" style type="text" name="fname" />
 
-    <button id="button" onclick="alert('you\'re dumb!')" type="button">
-      click me
-    </button>
+    <button id="button" type="button">click me</button>
     <hr />
+
+    <script type="text/javascript">
+      document.getElementById("button").addEventListener("click", () => {
+        const value = document.getElementById("banana");
+        alert(value.value);
+      });
+    </script>
   </body>
 </html>
