@@ -1,0 +1,12 @@
+h1 {
+    color: blueviolet;
+    font-weight: lighter;
+  }
+
+  .monkey {
+    font-style: italic;
+  }
+
+  #trash {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
